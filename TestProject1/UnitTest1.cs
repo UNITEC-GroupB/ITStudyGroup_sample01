@@ -20,7 +20,7 @@ namespace TestProject1
             var result = Hoge.Add(1, 2);
             var expect = 4;
 
-            Assert.Fail(expect == result, $"1+2‚Í4‚¶‚á‚È‚¢‚Í‚¸.expect={expect},result={result}");
+            Assert.False(expect == result, $"1+2‚Í4‚¶‚á‚È‚¢‚Í‚¸.expect={expect},result={result}");
 
         }
     }
